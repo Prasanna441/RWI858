@@ -1,0 +1,28 @@
+Java is a programming language and a platform. Java is a high level, robust, object-oriented and secure programming language.
+
+Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995. James Gosling is known as the father of Java. Before Java, its name was Oak. Since Oak was already a registered company, so James Gosling and his team changed the name from Oak to Java.
+
+
+Features of Java
+Java provides very good features which are better as compared to C/C++. These features are:
+
+Simple: Java is easy to learn because most of the complex features of C/C++ like pointers, operator overloading, etc. are not provided in Java.
+Secure: Java programs run within the JVM which protects from unauthorised access to system resources.
+Platform Independent/Portable: Java program can be executed on any kind of machine containing any CPU or operating system.
+Architecture Neutral: Since it can run on any operating system, so it is architecture-neutral.
+Robust: Java is robust because of having strong memory management, no pointers, exception handling, type checking mechanism, platform-independent.
+Multi-threaded: Java allows us to write a program that can do many things simultaneously.
+Object-Oriented: Java follows OOPs model that helps to break the complex code into easy to understand objects.
+
+
+Program Explanation
+The above program contains the following main parts which are important before going into the main topics:
+
+class definition: class is a keyword that tells that a new class has created. “Hello” is used as an identifier to declare a class name. Entire class starts with a curly brace { and ends with } curly brace.
+main method: Execution of each program starts with the main method. Each program must have a main method. Syntax of the main method
+public static void main(String args[]) or static public void main(String args[])
+public: public so that JVM can execute the program from anywhere
+static: so that main method can be called without creating object.
+void: method main doesn’t return anything.
+String []args: to pass arguments from command line as String array elements
+System.out.print(): Statements inside () in double quotation marks will be printed as it is, and without double quotation marks, values will be printed. Example:
